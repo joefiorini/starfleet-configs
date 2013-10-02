@@ -18,6 +18,16 @@ setopt extendedglob
 bindkey -e
 # End of lines configured by zsh-newuser-install
 
+# make meta+bksp kill path components
+function backward-kill-partial-word {
+        local WORDCHARS="${WORDCHARS//[\/.]/}"
+        zle backward-kill-word "$@"
+}
+
+zle -N backward-kill-partial-word
+bindkey '^Xw' backward-kill-partial-word
+
+
 alias ll='ls -Gla'
 
 setopt prompt_subst
