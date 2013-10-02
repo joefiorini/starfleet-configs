@@ -73,3 +73,4 @@ local jobs="%(1j, %{$FG[160]%}%j%{$FX[reset]%},)"
 PROMPT='${smiley}${jobs} '
 RPROMPT='${vcs_info_msg_0_}'
 
+fortune horse
