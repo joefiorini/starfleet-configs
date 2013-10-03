@@ -6,7 +6,8 @@ module.exports = {
     },
     files: [{
       expand: true,
-      src: ['**/*', '!Gruntfile.js', '!_*', '!.git/**/*', '!.git*', '!node_modules/**/*', '!tmp', '!package.json'],
+      cwd: 'src',
+      src: ['**/*'],
       dot: true
     }]
   }
