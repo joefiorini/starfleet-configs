@@ -1,7 +1,7 @@
 module.exports = {
   main: {
     options: {
-      archive: '_dist/configs-<%= pkg.version %>.tar.gz',
+      archive: 'dist/configs-<%= pkg.version %>.tar.gz',
       mode: 'tgz'
     },
     files: [{
