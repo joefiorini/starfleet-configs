@@ -1,0 +1,24 @@
+{
+  "name": "triforce-configs",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joefiorini/triforce-configs.git"
+  },
+  "author": "",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/joefiorini/triforce-configs/issues"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-compress": "~0.5.2",
+    "load-grunt-tasks": "~0.1.0",
+    "grunt-contrib-clean": "~0.5.0"
+  }
+}
