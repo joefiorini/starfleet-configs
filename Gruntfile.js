@@ -15,7 +15,7 @@ module.exports = function(grunt) {
     clean: ['_dist']
   });
 
-  grunt.registerTask('push', ['s3:master']);
-  grunt.registerTask('release', ['bump', 'push']);
-  grunt.registerTask('package', ['clean', 'compress']);
+  grunt.registerTask('push', 'Push all packages in dist to S3', ['s3:master']);
+  grunt.registerTask('release', 'Bump versions and push to S3', ['bump', 'push']);
+  grunt.registerTask('package', 'Build packages', ['clean', 'compress']);
 };
