@@ -7,7 +7,7 @@ module.exports = {
   },
   master: {
     upload: [{
-      src: '_dist/configs-*.tar.gz'
+      src: 'dist/configs-*.tar.gz'
     }]
   }
 };
